@@ -1,5 +1,7 @@
 #include <Novice.h>
-#include"GameManager.h"
+#include<Command.h>
+#include"InputHandle.h"
+#include"Player.h"
 
 const char kWindowTitle[] = "学籍番号";
 
@@ -10,11 +12,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Novice::Initialize(kWindowTitle, 1280, 720);
 
 	
-	GameManager* gameManager = new GameManager();
-
-	gameManager->Run();
-
-	delete gameManager;
+	
 
 
 	

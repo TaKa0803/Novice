@@ -17,6 +17,12 @@
     <Filter Include="h,cpp">
       <UniqueIdentifier>{d65361d0-d19f-4083-85c9-2af854f47299}</UniqueIdentifier>
     </Filter>
+    <Filter Include="h,cpp\Command">
+      <UniqueIdentifier>{732ea281-4fb3-4893-912e-7b2d94b121e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h,cpp\InputHandle">
+      <UniqueIdentifier>{d6807c2e-63ea-46d8-87de-1a8d162965e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -41,20 +47,14 @@
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
     </ClCompile>
-    <ClCompile Include="IScene.cpp">
+    <ClCompile Include="Player.cpp">
       <Filter>h,cpp</Filter>
     </ClCompile>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>h,cpp</Filter>
+    <ClCompile Include="Command.cpp">
+      <Filter>h,cpp\Command</Filter>
     </ClCompile>
-    <ClCompile Include="PlayScene.cpp">
-      <Filter>h,cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="ClearScene.cpp">
-      <Filter>h,cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>h,cpp</Filter>
+    <ClCompile Include="InputHandle.cpp">
+      <Filter>h,cpp\InputHandle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -129,20 +129,14 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="IScene.h">
+    <ClInclude Include="Player.h">
       <Filter>h,cpp</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
-      <Filter>h,cpp</Filter>
+    <ClInclude Include="Command.h">
+      <Filter>h,cpp\Command</Filter>
     </ClInclude>
-    <ClInclude Include="PlayScene.h">
-      <Filter>h,cpp</Filter>
-    </ClInclude>
-    <ClInclude Include="ClearScene.h">
-      <Filter>h,cpp</Filter>
-    </ClInclude>
-    <ClInclude Include="TitleScene.h">
-      <Filter>h,cpp</Filter>
+    <ClInclude Include="InputHandle.h">
+      <Filter>h,cpp\InputHandle</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
