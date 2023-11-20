@@ -8,6 +8,7 @@ ICommand* InputHandle::HandleInput() {
 	if (Novice::CheckHitKey(DIK_A)) {
 		return pressKeyA_;
 	}
+	return nullptr;
 }
 void InputHandle::AssignMoveLeftCommand2PressKeyA() {
 	ICommand* command = new MoveLeftCommand();
@@ -16,5 +17,5 @@ void InputHandle::AssignMoveLeftCommand2PressKeyA() {
 
 void InputHandle::AssignMoveRightCommand2PressKeyD() {
 	ICommand* command = new MoveRightCommand();
-	this->pressKeyA_ = command;
+	this->pressKeyD_ = command;
 }
